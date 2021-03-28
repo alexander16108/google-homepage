@@ -1,12 +1,49 @@
 /*nav bar*/
+
 nav .aside_bar{
-display: flex;
-justify-content: end;
+text-align: right;
+
 }
 .aside_bar a{
     color: black;
     text-decoration: none;
 }
 .aside_bar a:hover{
+text-decoration: underline;
+}
+/*main*/
+main{
+    text-align: center;
+}
+.button{
+padding: bottom 20px; 
+}
+.left-bar img{
+    display: block;
+    margin: 5rem auto;
+}
+
+.button input[type=text]{
+width: 27rem;
+height: 40px;
+border-radius: 20px;
+border: 1px grey solid;
+}
+
+.input-button{
+    padding-top: 20px;
+}
+.input-button > input[type="button"]{
+    padding-left: 10px;
+}
+.input-button input[type="button"]{
+  padding: 10px;
+    border: none;
+    height: 35px;
+}
+p a{
+    text-decoration: none;
+}
+p a:hover{
 text-decoration: underline;
 }

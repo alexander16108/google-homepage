@@ -1,0 +1,12 @@
+/*nav bar*/
+nav .aside_bar{
+display: flex;
+justify-content: end;
+}
+.aside_bar a{
+    color: black;
+    text-decoration: none;
+}
+.aside_bar a:hover{
+text-decoration: underline;
+}
